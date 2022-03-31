@@ -38,9 +38,7 @@ a {
   background-size: cover;
 }
 
-.navbar-toggler {
-  border-color: aqua;
-}
+
 .nav-item a {
   color:rgb(255, 0, 221)
 }
@@ -49,9 +47,6 @@ a {
 }
 
 
-.navbar-toggler {
-  border-color:rgb(0, 255, 200)
-}
 
 
 
