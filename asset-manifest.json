@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Avalynn-Helgrave-Portfolio/static/css/main.8cdb8563.css",
+    "main.js": "/Avalynn-Helgrave-Portfolio/static/js/main.8b9a08b8.js",
+    "static/media/background_picture.png": "/Avalynn-Helgrave-Portfolio/static/media/background_picture.3b2fbe0c3c4cb4fc6bd2.png",
+    "index.html": "/Avalynn-Helgrave-Portfolio/index.html",
+    "main.8cdb8563.css.map": "/Avalynn-Helgrave-Portfolio/static/css/main.8cdb8563.css.map",
+    "main.8b9a08b8.js.map": "/Avalynn-Helgrave-Portfolio/static/js/main.8b9a08b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8cdb8563.css",
+    "static/js/main.8b9a08b8.js"
+  ]
+}
