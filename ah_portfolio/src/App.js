@@ -6,6 +6,7 @@ import PortfolioContainer from "./components/PortfolioContainer";
 function App() {
     return (
       <div>
+        {/* <FontAwesomeIcon icon="fa-brands fa-github" /> */}
         <PortfolioContainer />
       </div>
     );

@@ -1,7 +1,6 @@
-/* .nav-tabs {
-  background: #6a1b9a;
-  height: 60px;
-} */
+body {
+  background-color: rgb(0, 0, 0);
+}
 
 a {
   color:rgb(0, 255, 234);
@@ -12,13 +11,7 @@ a {
   color: rgb(0, 255, 234)
 }
 
-/* .nav-tabs a {
-  color: white;
-  font-size: 1.3rem;
-  text-decoration: none;
-  margin: 5px;
-  line-height: 3;
-} */
+
 
 .navbar h1 {
   font-size: 40px;
@@ -30,12 +23,12 @@ a {
 
 
 .navbar {
-  height: 200px;
+  min-height: 200px;
   font-size: 20px;
   background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url("../../public/background_picture.png");
   background-position: center;
-  /* filter: brightness(50%); */
   background-size: cover;
+  padding: 20px;
 }
 
 
@@ -46,14 +39,83 @@ a {
   color:rgb(170, 2, 148)
 }
 
-
-
-
-
-/* .custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+.navbar-light .navbar-brand {
+  color:rgb(0, 255, 200);
 }
 
-.custom-toggler .navbar-toggler {
-  border-color: rgb(255,102,203);
-}  */
+.navbar-light .navbar-nav .nav-link.active{
+  color:rgb(248, 53, 255);
+  /* font-size: 24px; */
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+  color:rgb(0, 230, 210);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color:rgb(161, 3, 167)
+}
+
+.navbar-light .navbar-toggler {
+  border-color: whitesmoke;
+}
+
+h1 {
+  color:rgb(0, 217, 255)
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%28255, 255, 255, 0.55%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e");
+}
+
+h2 {
+  color:rgb(0, 247, 255);
+}
+
+p {
+  color:rgb(133, 251, 255);
+  font-size: x-large;
+}
+
+
+
+.render_box {
+  padding: 5%;
+  background-color: rgba(12, 12, 12, 0.959);
+}
+
+
+
+.footer {
+  /* background-color: rgba(12, 12, 12, 0.959); */
+  /* remove this to move it to the bottom of the body */
+  /* position: fixed; */
+  padding-top: 10px;
+  width: 100%;
+  bottom: 0;
+  /* color: white; */
+  font-size: 25px;
+  text-align: center;
+ }
+
+
+ i {
+   margin: 10px;
+   border-radius: 20px;
+ }
+
+.fa-brands {
+  color: rgba(255, 255, 255, 0.836);
+}
+.fa-brands:hover {
+  opacity: 50%;
+}
+
+.fa-solid {
+  color: rgba(255, 255, 255, 0.836);
+}
+
+.fa-solid:hover {
+  opacity: 50%;
+}
