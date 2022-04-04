@@ -32,6 +32,15 @@ a {
 }
 
 
+#profile_pic {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+
+
 .nav-item a {
   color:rgb(255, 0, 221)
 }
@@ -71,6 +80,7 @@ h1 {
 
 h2 {
   color:rgb(0, 247, 255);
+  padding-bottom: 10px;
 }
 
 p {
@@ -78,6 +88,34 @@ p {
   font-size: x-large;
 }
 
+h3 {
+  color:rgb(0, 247, 255);
+}
+
+h4 {
+  color:rgb(133, 251, 255);
+  margin-bottom: 10px;
+}
+
+h4 a:hover {
+  color:rgb(206, 0, 224)
+}
+
+ul li {
+  color:rgb(133, 251, 255);
+}
+
+input {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  /* width: 75%; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
 
 .render_box {
@@ -85,6 +123,15 @@ p {
   background-color: rgba(12, 12, 12, 0.959);
 }
 
+.btn {
+  background-color: aquamarine;
+}
+
+#message_input {
+  vertical-align: top;
+  min-height: 200px;
+  overflow-wrap: break-word;
+}
 
 
 .footer {
@@ -119,3 +166,98 @@ p {
 .fa-solid:hover {
   opacity: 50%;
 }
+
+
+
+
+
+
+/* .portfolio_container {
+  background-color: darkblue;
+} */
+
+.row {
+  /* height: 250px; */
+  /* background-color: aquamarine; */
+  /* margin: 1%; */
+}
+
+.col-sm {
+  background-color: blueviolet;
+  height: 200px;
+  margin: 1%;
+
+
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+
+
+  background-position: center;
+  background-size: cover;
+
+}
+
+.col-sm p {
+  text-align: center;
+  opacity: 0%;
+  transition-duration: 1s;
+  font-size: 40px;
+}
+.col-sm:hover p {
+  opacity: 100%;
+}
+
+.col-sm p a {
+  text-decoration: none;
+}
+
+.col-sm p a:hover {
+  color:rgb(206, 0, 224)
+}
+
+
+.hobbyhub {
+  background-image: url('../images/HobbyPage.png');
+}
+.hobbyhub:hover {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/HobbyPage.png");
+}
+
+.textpop {
+  background-image: url('../images/textpop.png');
+}
+.textpop:hover {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/textpop.png");
+}
+
+.tpg {
+  background-image: url('../images/tpg.png');
+}
+.tpg:hover {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/tpg.png");
+}
+
+.bsapi {
+  background-image: url('../images/bsapi.png');
+}
+.bsapi:hover {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/bsapi.png");
+}
+
+.sqled {
+  background-image: url('../images/sqled.png');
+}
+.sqled:hover {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/sqled.png");
+}
+
+.wds {
+  background-image: url('../images/wds.jpg');
+}
+.wds:hover {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/wds.jpg");
+}
+

@@ -1,18 +1,17 @@
 import React, { useState } from 'react';
 
-import { checkPassword, validateEmail } from '../../utils/helpers';
+import { validateEmail } from '../../utils/helpers';
+// import { checkPassword, validateEmail } from '../../utils/helpers';
 
 
 export default function Contact() {
-
-
 
 
   // Create state variables for the fields in the form
   // We are also setting their initial values to an empty string
   const [email, setEmail] = useState('');
   const [userName, setUserName] = useState('');
-  const [password, setPassword] = useState('');
+  const [message, setMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
 
   const handleInputChange = (e) => {
@@ -27,7 +26,7 @@ export default function Contact() {
     } else if (inputType === 'userName') {
       setUserName(inputValue);
     } else {
-      setPassword(inputValue);
+      setMessage(inputValue);
     }
   };
 
@@ -37,22 +36,17 @@ export default function Contact() {
 
     // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
     if (!validateEmail(email) || !userName) {
-      setErrorMessage('Email or username is invalid');
+      setErrorMessage('Email or name is invalid');
       // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
       // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
     }
-    if (!checkPassword(password)) {
-      setErrorMessage(
-        `Choose a more secure password for the account: ${userName}`
-      );
-      return;
-    }
+
     alert(`Hello ${userName}`);
 
     // If everything goes according to plan, we want to clear out the input after a successful registration.
     setUserName('');
-    setPassword('');
+    setMessage('');
     setEmail('');
   };
 
@@ -60,10 +54,20 @@ export default function Contact() {
 
   return (
     <div>
-      <h2>Contact Page</h2>
+      <h2>Contact Me</h2>
 
 
       <form className="form">
+        <h3>Name:</h3>
+        <input
+          value={userName}
+          name="userName"
+          onChange={handleInputChange}
+          type="text"
+          placeholder="name"
+        />
+
+        <h3>Email Address:</h3>
         <input
           value={email}
           name="email"
@@ -71,21 +75,28 @@ export default function Contact() {
           type="email"
           placeholder="email"
         />
-        <input
-          value={userName}
-          name="userName"
+
+        {/* <input
+          id="message_input"
+          value={message}
+          name="message"
           onChange={handleInputChange}
           type="text"
-          placeholder="username"
-        />
-        <input
-          value={password}
-          name="password"
-          onChange={handleInputChange}
-          type="password"
-          placeholder="Password"
-        />
-        <button type="button" onClick={handleFormSubmit}>Submit</button>
+          placeholder="message"
+          required='true'
+        /> */}
+        <h3>Message:</h3>
+        <textarea 
+          id="message_input"
+          class="form-control"
+          value={message}
+          name="message"
+          onChange={handleInputChange} 
+          rows="3" 
+          placeholder="message" 
+          required
+        ></textarea>
+
       </form>
 
       {errorMessage && (
@@ -94,7 +105,7 @@ export default function Contact() {
         </div>
       )}
 
-
+      <button class="btn" type="button" onClick={handleFormSubmit}>Submit</button>
     </div>
   );
 }
