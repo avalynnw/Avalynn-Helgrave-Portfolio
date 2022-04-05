@@ -2,7 +2,7 @@
 
 ## Description
 
-This program is desinged to be a portfolio website for Avalynn C. Helgrave
+This program is desinged to be a portfolio website for Avalynn C. Helgrave designed in REACT.
 
 ## Table of Contents
 
