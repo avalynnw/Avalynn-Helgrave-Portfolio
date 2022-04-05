@@ -12,6 +12,7 @@ This program is desinged to be a portfolio website for Avalynn C. Helgrave
 - [License](#license)
 - [Questions](#questions)
 
+## Website
 
 ![Screenshot of the Heroku application](./ah_portfolio/src/images/react_app.png)
 
