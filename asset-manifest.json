@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Avalynn-Helgrave-Portfolio/static/css/main.d541fc63.css",
-    "main.js": "/Avalynn-Helgrave-Portfolio/static/js/main.7d9ef0b4.js",
+    "main.js": "/Avalynn-Helgrave-Portfolio/static/js/main.6b16ac93.js",
     "static/media/background_picture.png": "/Avalynn-Helgrave-Portfolio/static/media/background_picture.3b2fbe0c3c4cb4fc6bd2.png",
     "static/media/wds.jpg": "/Avalynn-Helgrave-Portfolio/static/media/wds.b2dad15a1a71a81558f2.jpg",
     "static/media/bsapi.png": "/Avalynn-Helgrave-Portfolio/static/media/bsapi.f9bc7d83a2451eedacb1.png",
@@ -10,13 +10,13 @@
     "static/media/textpop.png": "/Avalynn-Helgrave-Portfolio/static/media/textpop.a2d0dfd7e704c04315ad.png",
     "static/media/HobbyPage.png": "/Avalynn-Helgrave-Portfolio/static/media/HobbyPage.b948c25946b12ba28225.png",
     "static/media/sqled.png": "/Avalynn-Helgrave-Portfolio/static/media/sqled.003b6f0e5cd49547969e.png",
-    "static/media/Avalynn_Helgrave.docx.pdf": "/Avalynn-Helgrave-Portfolio/static/media/Avalynn_Helgrave.docx.094d96fb8d433594c778.pdf",
+    "static/media/Avalynn_Helgrave.pdf": "/Avalynn-Helgrave-Portfolio/static/media/Avalynn_Helgrave.094d96fb8d433594c778.pdf",
     "index.html": "/Avalynn-Helgrave-Portfolio/index.html",
     "main.d541fc63.css.map": "/Avalynn-Helgrave-Portfolio/static/css/main.d541fc63.css.map",
-    "main.7d9ef0b4.js.map": "/Avalynn-Helgrave-Portfolio/static/js/main.7d9ef0b4.js.map"
+    "main.6b16ac93.js.map": "/Avalynn-Helgrave-Portfolio/static/js/main.6b16ac93.js.map"
   },
   "entrypoints": [
     "static/css/main.d541fc63.css",
-    "static/js/main.7d9ef0b4.js"
+    "static/js/main.6b16ac93.js"
   ]
 }
