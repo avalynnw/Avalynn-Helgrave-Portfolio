@@ -1,5 +1,5 @@
 import React from 'react';
-import pdf from '../../images/Ava_Helgrave_Resume.pdf';
+import pdf from '../../images/Avalynn_Helgrave.docx.pdf';
 
 export default function Resume() {
   return (
