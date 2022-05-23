@@ -16,7 +16,7 @@ This program is desinged to be a portfolio website for Avalynn C. Helgrave desig
 
 ![Screenshot of the Heroku application](./ah_portfolio/src/images/react_app.png)
 
-# [Deployed Heroku Application](https://avalynnw.github.io/Avalynn-Helgrave-Portfolio/)
+# [Deployed Application](https://avalynnw.github.io/Avalynn-Helgrave-Portfolio/)
 
 ## Contributing
 
